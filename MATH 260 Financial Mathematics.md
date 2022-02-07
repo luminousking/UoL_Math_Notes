@@ -6,12 +6,12 @@
 
 **Principle:** Money invested today can be invested to earn interest/profit. 
 
-1. **PV** = present value / initial investment
-2. **r** = rate of return (%) per annum
-3. **n** = no. of years
-4. $FV_n = PV(1 + r)^n$ --- compounding formula 
-5. $CF_n$ = future cash flow at the end of year n
-6. $PV = \frac{CF_n}{(1+r)^n}$ ---discount formula
+* **PV** = present value / initial investment
+* **r** = rate of return (%) per annum
+* **n** = no. of years
+* $FV_n = PV(1 + r)^n$ --- compounding formula 
+* $CF_n$ = future cash flow at the end of year n
+* $PV = \frac{CF_n}{(1+r)^n}$ ---discount formula
 
 ### 2. Interest Rates
 
@@ -28,3 +28,28 @@
 * Continuous Rates $r_C$ 
   * $\lim\limits_{m\rightarrow\infty}(FV_n) = \lim(PV(1+\frac{r_{nom}}{m})^{mn})$ 	
   * using $(1+\frac{x}{n})^n \rightarrow e^x$, $FV_n = PV*e^{r_Cn}$
+
+### 3. Relationship between Continuous and compounded rates 
+
+* $FV_n=PV(1+ \frac{r_{rom}}{m})^{nm} = PV*e^{r_C*n}$
+* $r_C = m*ln(1+ \frac{r_{nom}}{m})$ & $r_{nom} = m*(e^{\frac{r_C}{m}} - 1)$
+
+### 4. Risk and Return
+
+Measuring risk and return: use influencing events and associated probs. 
+
+**Investment** 
+|Events:| 1 | 2 | 3 |
+|---|---|---|----|
+|Probabilities| $P_1$ | $P_2$ | $P_3$ |
+|Returns: | $r_1$ | $r_2$ | $r_3$ |
+
+* $\hat{r} = E(r) = \sum_{i=1}^{n}P_ir_i$
+
+* $\sigma^2 = Var(r):= \sum_{i=1}^{n}P_i(r_i - \hat{r})^2 = E(r^2) - E[(r)]^2$  --- $\sigma=$ measure of risk
+
+* Decision making 
+
+  Coefficient of variation $CV=\frac{\sigma}{\hat{r}}$   PS: $\sigma $ lower the better 
+
+  
