@@ -32,7 +32,7 @@
 ### 3. Relationship between Continuous and compounded rates 
 
 * $FV_n=PV(1+ \frac{r_{rom}}{m})^{nm} = PV*e^{r_C*n}$
-* $r_C = m*ln(1+ \frac{r_{nom}}{m})$ & $r_{nom} = m*(e^{\frac{r_C}{m}} - 1)$
+* $r_C = m*ln(1+ \frac{r_{nom}}{m})$ with  $r_{nom} = m*(e^{\frac{r_C}{m}} - 1)$
 
 ### 4. Risk and Return
 
