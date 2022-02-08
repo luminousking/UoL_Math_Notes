@@ -27,7 +27,6 @@
   * $R = \frac{r-i}{1+i}$
 * Continuous Rates $r_C$ 
   * $\lim\limits_{m\rightarrow\infty}(FV_n) = \lim(PV(1+\frac{r_{nom}}{m})^{mn})$ 	 
-  * 
   * using $(1+\frac{x}{n})^n \rightarrow e^x$, $FV_n = PV*e^{r_Cn}$
 
 ### 3. Relationship between Continuous and compounded rates 
