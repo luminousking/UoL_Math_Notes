@@ -39,6 +39,7 @@
 Measuring risk and return: use influencing events and associated probs. 
 
 **Investment** 
+
 |Events:| 1 | 2 | 3 |
 |---|---|---|----|
 |Probabilities| $P_1$ | $P_2$ | $P_3$ |
