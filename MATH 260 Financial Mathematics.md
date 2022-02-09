@@ -53,4 +53,12 @@ Measuring risk and return: use influencing events and associated probs.
 
   Coefficient of variation $CV=\frac{\sigma}{\hat{r}}$   PS: $\sigma $ lower the better 
 
-  
+### 4.5 Risk and Return in a Portfolio
+
+**Portfolio:** 
+
+| Assets            | Individual returns(%) | Amount invested |
+| ----------------- | --------------------- | --------------- |
+| $r_1$                     |    $v_1$            | $\$ |
+
+
